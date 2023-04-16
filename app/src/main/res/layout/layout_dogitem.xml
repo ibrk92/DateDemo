@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtViewId"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+	    android:gravity="center"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imgViewDogPic"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/americanbulldog" />
+
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+	android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtViewBreed"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+	android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtViewDOB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+	    android:gravity="center"
+        android:text="TextView" />
+
+
+</LinearLayout>
